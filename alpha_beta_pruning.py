@@ -10,6 +10,9 @@ Original file is located at
 #3, 5, 6, 9, 1, 2, 0, -1
 
 # Function to implement minimax with alpha-beta pruning
+import utils.http_session
+import utils.transport
+import utils.session
 def alpha_beta_pruning(depth, nodeIndex, isMax, values, alpha, beta, maxDepth):
     # Base case: when we reach a leaf node
     if depth == maxDepth:
